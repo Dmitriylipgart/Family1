@@ -1,0 +1,98 @@
+body {
+    background: linear-gradient(to bottom, #414A4C, #FFFFFF) no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+header img {
+    display: block;
+    margin: 120px auto 0 auto;
+}
+
+.main {
+    background: url("img/Skamya1.jpg") top center / 100% no-repeat;
+    height: 800px;
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: linear-gradient(to right, #414A4C, #009B76) no-repeat;
+    height: 60px;
+}
+
+nav li a {
+    display: block;
+    background-color: inherit;
+    padding: 0 10px;
+    text-decoration: none;
+    font: italic 22px 'Bad Script';
+    color: #FFFFFF;
+    text-shadow: 4px 4px 8px black;
+
+}
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+
+}
+
+nav {
+    margin: 0;
+    margin-left: 15%;
+    display: inline-block;
+}
+
+nav ul {
+    height: 50px;
+
+}
+
+nav li a:hover {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.075);
+    -ms-transform: scale(1.075);
+    -o-transform: scale(1.075);
+    transform: scale(1.2);
+    text-shadow: 3px 3px 8px #fff, -3px -3px 8px #fff;
+}
+
+nav li:active {
+    -webkit-transform: scale(0.85);
+    -moz-transform: scale(0.85);
+    -ms-transform: scale(0.85);
+    -o-transform: scale(0.85);
+    transform: scale(0.85);
+    text-shadow: 3px 3px 8px #013F50, -3px -3px 8px #013F50;
+}
+
+.logo p a{
+    display: inline-block;
+    font: italic 68px Cookie;
+    color: white;
+    padding-left: 10px;
+    text-shadow: 4px 4px 8px black;
+    text-decoration: none;
+    margin: 0;
+}
+.logo {
+    margin: 0 0 -20px;
+}
+
+article {
+    display: block;
+    width: 40%;
+    padding: 10px;
+    margin-left: 40%;
+    font: 1.4em Gabriela, Garamond, serif;
+    color: white;
+    text-shadow: 3px 2px 4px black;
+    text-align: right;
+
+
+}
