@@ -1,0 +1,12 @@
+header {
+
+    background: linear-gradient(to right, #E764BC, #E787C8) no-repeat;
+}
+
+.main {
+    background: url("img/Diana.jpg") top center / 100% no-repeat;
+    height: 800px;
+    margin: 0;
+    padding: 0;
+
+}

@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to bottom, #3E5F8A, #FFFFFF) no-repeat;
+    background: linear-gradient(to bottom, #357FB8, #FFFFFF) no-repeat;
     margin: 0;
     padding: 0;
 }
@@ -9,18 +9,12 @@ header img {
     margin: 120px auto 0 auto;
 }
 
-.main {
-    background: url("img/Skamya.jpg") top center / 100% no-repeat;
-    height: 600px;
-
-
-}
 
 header {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    background-color: #303030;
+    background: linear-gradient(to right, #114B77, #86B6DB) no-repeat;
     height: 60px;
 }
 
